@@ -12,6 +12,12 @@ function [] = plotAvgNetworkDelay()
     plotGenericResult(5, 1, {'Average WLAN Delay';'for Infotainment App (sec)'}, 'INFOTAINMENT_APP', '');
     plotGenericResult(5, 1, {'Average WLAN Delay';'for Heavy Comp. App %(sec)'}, 'HEAVY_COMP_APP', '');
 
+    plotGenericResult(5, 2, 'Average MAN Delay (sec)', 'ALL_APPS', '');
+    plotGenericResult(5, 2, {'Average MAN Delay';'for Augmented Reality App (sec)'}, 'AUGMENTED_REALITY', '');
+    plotGenericResult(5, 2, 'Average MAN Delay for Health App (sec)', 'HEALTH_APP', '');
+    plotGenericResult(5, 2, {'Average MAN Delay';'for Infotainment App (sec)'}, 'INFOTAINMENT_APP', '');
+    plotGenericResult(5, 2, {'Average MAN Delay';'for Heavy Comp. App (sec)'}, 'HEAVY_COMP_APP', '');
+
     plotGenericResult(5, 3, 'Average WAN Delay (sec)', 'ALL_APPS', '');
     plotGenericResult(5, 3, {'Average WAN Delay';'for Augmented Reality App (sec)'}, 'AUGMENTED_REALITY', '');
     plotGenericResult(5, 3, 'Average WAN Delay for Health App (sec)', 'HEALTH_APP', '');

@@ -8,17 +8,17 @@ function [ret_val] = getConfiguration(argType)
     elseif(argType == 2)
         ret_val = 1; %Number of iterations
     elseif(argType == 3)
-        ret_val = 100; %min number of mobile device
+        ret_val = 200; %min number of mobile device
     elseif(argType == 4)
-        ret_val = 100; %step size of mobile device count
+        ret_val = 200; %step size of mobile device count
     elseif(argType == 5)
-        ret_val =1000; %max number of mobile device
+        ret_val =2000; %max number of mobile device
     elseif(argType == 6)
         ret_val = 1; %xTickLabelCoefficient
     elseif(argType == 7)
-        ret_val = {'SINGLE_TIER','TWO_TIER','TWO_TIER_WITH_EO'};
+        ret_val = {'UTILIZATION_BASED','NETWORK_BASED','HYBRID'};
     elseif(argType == 8)
-        ret_val = {'1-tier','2-tier','2-tier with EO'};
+        ret_val = {'utilization','bw','hybrid'};
     elseif(argType == 9)
         ret_val=[10 3 12 12]; %position of figure
     elseif(argType == 10)
